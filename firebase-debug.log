@@ -1,0 +1,50 @@
+[debug] [2025-04-24T08:17:21.251Z] ----------------------------------------------------------------------
+[debug] [2025-04-24T08:17:21.253Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ratha\OneDrive\Desktop\Cedt Chula\2-67\Software Engineering\Lab\GithubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-24T08:17:21.254Z] CLI Version:   14.2.1
+[debug] [2025-04-24T08:17:21.254Z] Platform:      win32
+[debug] [2025-04-24T08:17:21.254Z] Node Version:  v22.14.0
+[debug] [2025-04-24T08:17:21.254Z] Time:          Thu Apr 24 2025 15:17:21 GMT+0700 (GMT+07:00)
+[debug] [2025-04-24T08:17:21.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-24T08:17:21.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-24T08:17:21.445Z] > authorizing via signed-in user (rathanon.makaramanee@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-24T08:17:21.460Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T08:17:21.460Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-24T08:17:21.460Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project githubactionpractice2-c3690. This may result in unexpected behavior. 
+[debug] [2025-04-24T08:17:21.465Z] [hub] writing locator at C:\Users\ratha\AppData\Local\Temp\hub-githubactionpractice2-c3690.json
+[debug] [2025-04-24T08:17:21.485Z] Checked if tokens are valid: true, expires at: 1745485085131
+[debug] [2025-04-24T08:17:21.485Z] Checked if tokens are valid: true, expires at: 1745485085131
+[debug] [2025-04-24T08:17:21.486Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice2-c3690/sites 
+[debug] [2025-04-24T08:17:22.410Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice2-c3690/sites 200
+[debug] [2025-04-24T08:17:22.410Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactionpractice2-c3690/sites {"sites":[{"name":"projects/githubactionpractice2-c3690/sites/githubactionpractice2-c3690","defaultUrl":"https://githubactionpractice2-c3690.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-24T08:17:22.411Z] Checked if tokens are valid: true, expires at: 1745485085131
+[debug] [2025-04-24T08:17:22.411Z] Checked if tokens are valid: true, expires at: 1745485085131
+[debug] [2025-04-24T08:17:22.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice2-c3690/webApps/-/config [none]
+[debug] [2025-04-24T08:17:22.928Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice2-c3690/webApps/-/config 200
+[debug] [2025-04-24T08:17:22.928Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice2-c3690/webApps/-/config {"projectId":"githubactionpractice2-c3690","storageBucket":"githubactionpractice2-c3690.firebasestorage.app","apiKey":"AIzaSyAaLEX1J4X1o_dEdwh2_ElX62fEViN8lAU","authDomain":"githubactionpractice2-c3690.firebaseapp.com","messagingSenderId":"1003552734262"}
+[debug] [2025-04-24T08:17:22.933Z] Checked if tokens are valid: true, expires at: 1745485085131
+[debug] [2025-04-24T08:17:22.933Z] Checked if tokens are valid: true, expires at: 1745485085131
+[debug] [2025-04-24T08:17:22.933Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice2-c3690 [none]
+[debug] [2025-04-24T08:17:23.267Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice2-c3690 200
+[debug] [2025-04-24T08:17:23.267Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactionpractice2-c3690 {"projectId":"githubactionpractice2-c3690","projectNumber":"1003552734262","displayName":"GithubActionPractice2","name":"projects/githubactionpractice2-c3690","resources":{"hostingSite":"githubactionpractice2-c3690"},"state":"ACTIVE","etag":"1_5dd2da96-38c0-4792-93ac-20b3c7854a34"}
+[info] i  hosting[githubactionpractice2-c3690]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[githubactionpractice2-c3690]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-24T08:17:23.290Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
